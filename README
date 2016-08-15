@@ -1,0 +1,21 @@
+KOTUS - Coming Together
+By SASS
+
+Notes to team:
+
+To get the code for the first time run:
+'git clone git@git.ucsd.edu:nlg/sass.git' in the folder you would like the repo folder to be downloaded
+After that you will not need to run get clone ever again..
+You will now need to untrack your userprefs so in the root of the repo type:
+'git update-index --assume-unchanged KOTUS/KOTUS.userprefs'
+
+
+To get the latest code, in the root of the repo type:
+'git pull'
+
+To update the repo first do a pull, then add your modified files using:
+'git add file1.cs' to add a specific file or 'git add *.*' to add all modified files
+then run 'git commit -m "INSERT A SUMMARY OF CHANGES"'
+then run 'git push -u origin master'
+
+if there is a collision it will let you know

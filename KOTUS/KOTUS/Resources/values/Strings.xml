@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">KOTUS</string>
+
+<!-- Create Group Strings (by Sarmed)-->
+    <string name="privacy">Choose a Privacy Setting</string>
+    <string-array name="privacy_array">
+       <item>Public</item>
+       <item>Private (viewable)</item>
+       <item>Private (non-viewable)</item>
+    </string-array>
+
+    <!-- Nav Menu Strings (by Nick) -->
+	<string name="DrawerOpen">Open</string>
+	<string name="DrawerClose">Close</string>
+    <string-array name="LoginArray">
+    	<item>Log In</item>
+    	<item>Create Account</item>
+    	<item>Forgot Password</item>
+    </string-array>
+    <string-array name="DashOptArr">
+    	<item>Dashboard</item>
+    	<item>Create Group</item>
+    	<item>User Calendar</item>
+    	<item>Log Out</item>
+    </string-array>
+
+    <string-array name="GroupOptArr">
+    	<item>Dashboard</item>
+    	<item>Group Home</item>
+    	<item>Group Calendar</item>
+    	<item>Message Board</item>
+    	<item>Add New Member</item>
+    	<item>Member List</item>
+    	<item>Log Out</item>
+    </string-array>
+
+
+</resources>

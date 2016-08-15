@@ -1,0 +1,6 @@
+#manual entries
+KOTUS/KOTUS.userprefs
+KOTUS/KOTUS/bin/*
+KOTUS/KOTUS/obj/*
+*.DS_Store
+KOTUS/KOTUS/obj/Debug/*

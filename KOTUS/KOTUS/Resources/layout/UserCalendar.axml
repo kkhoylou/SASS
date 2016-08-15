@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#bc45504f">
+    <CalendarView
+        android:layout_width="fill_parent"
+        android:layout_height="311.5dp"
+        android:id="@+id/calendarView1"
+        android:selectedWeekBackgroundColor="#ffd0a823"
+        android:focusedMonthDateColor="#bcffffff"
+        android:unfocusedMonthDateColor="#ff0042d6"
+        android:layout_marginBottom="1.0dp"
+        android:background="#ff7186d0" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1" />
+</LinearLayout>

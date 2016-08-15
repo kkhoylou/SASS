@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{4D89ACC8-A936-402C-9280-3F2149ADE243}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>KOTUS</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>KOTUS</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Parse.Android">
+      <HintPath>lib\Parse.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\Components\xamandroidsupportv4-18-4.18.1\lib\android\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WelcomeActivity.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="MessageViewActivity.cs" />
+    <Compile Include="AppFragments\LoginFragment.cs" />
+    <Compile Include="MyActionBarDrawerToggle.cs" />
+    <Compile Include="AppFragments\SignUpFragment.cs" />
+    <Compile Include="AppFragments\ForgotPassFragment.cs" />
+    <Compile Include="UserActivityWindow.cs" />
+    <Compile Include="AppFragments\UserDashboardFragment.cs" />
+    <Compile Include="AppFragments\LogOutFragment.cs" />
+    <Compile Include="AppFragments\CreateGroupFragment.cs" />
+    <Compile Include="GroupActivityWindow.cs" />
+    <Compile Include="AppFragments\GroupDashFragment.cs" />
+    <Compile Include="AppFragments\UserCalendarFragment.cs" />
+    <Compile Include="AppFragments\LoadingFragment.cs" />
+    <Compile Include="CalendarEvent.cs" />
+    <Compile Include="Deprecated\CreatePersonalEvent.cs" />
+    <Compile Include="AppFragments\GroupCalendarFragment.cs" />
+    <Compile Include="AppFragments\AddMemberFragment.cs" />
+    <Compile Include="AppFragments\GroupLogOutFragment.cs" />
+    <Compile Include="EditEventActivity.cs" />
+    <Compile Include="AppFragments\GroupMembersFragment.cs" />
+    <Compile Include="MessageEditActivity.cs" />
+    <Compile Include="MessageWriteActivity.cs" />
+    <Compile Include="AppFragments\mBoardFragment.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="lib\Parse.Android.dll" />
+    <None Include="lib\Parse.Android.xml" />
+    <None Include="Resources\layout\GroupListView.axml" />
+    <None Include="Deprecated\CreateGroup.cs" />
+    <None Include="Deprecated\EmptyClass.cs" />
+    <None Include="Deprecated\EmptyInterface.cs" />
+    <None Include="Deprecated\GroupDashActivity.cs" />
+    <None Include="Deprecated\UserDashActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splash.png" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\layout\signUp.axml" />
+    <AndroidResource Include="Resources\layout\UserDash.axml" />
+    <AndroidResource Include="Resources\layout\GroupCreate.axml" />
+    <AndroidResource Include="Resources\layout\GroupDash.axml" />
+    <AndroidResource Include="Resources\layout\AdminDash.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\error.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\kotus_splash.png" />
+    <AndroidResource Include="Resources\layout\exampleListGroup.axml" />
+    <AndroidResource Include="Resources\layout\customMessageRow.axml" />
+    <AndroidResource Include="Resources\layout\customReplyRow.axml" />
+    <AndroidResource Include="Resources\layout\MessageView.axml" />
+    <AndroidResource Include="Resources\layout\Calendar.axml" />
+    <AndroidResource Include="Resources\layout\Login.axml" />
+    <AndroidResource Include="Resources\layout\CreateCalenderEvent.axml" />
+    <AndroidResource Include="Resources\layout\DrawerLayout.axml" />
+    <AndroidResource Include="Resources\layout\DrawerListItem.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_drawer_dark.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_drawer_light.png" />
+    <AndroidResource Include="Resources\layout\ForgotPass.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\kotusLogoTrans.png" />
+    <AndroidResource Include="Resources\layout\Loading.axml" />
+    <AndroidResource Include="Resources\layout\UserCalendar.axml" />
+    <AndroidResource Include="Resources\layout\EditCalenderEvent.axml" />
+    <AndroidResource Include="Resources\layout\MessageEdit.axml" />
+    <AndroidResource Include="Resources\layout\MessageWrite.axml" />
+    <AndroidResource Include="Resources\layout\mBoard.axml" />
+    <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\values\colors.axml" />
+    <AndroidResource Include="Resources\drawable\background_style.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="lib\" />
+    <Folder Include="AppFragments\" />
+    <Folder Include="Deprecated\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\values-v21\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="xamandroidsupportv4-18">
+      <Version>4.18.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>

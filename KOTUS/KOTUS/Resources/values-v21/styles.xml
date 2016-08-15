@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!-- Inherit from the light Material Theme -->
+    <style name="MyCustomTheme" parent="android:Theme.Material.Light">
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/my_purple</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/my_purple</item>
+
+
+        <!---<item name="android:windowBackground">@color/my_orange</item> -->
+    </style>
+
+    <style name ="buttonStyle">
+    	<item name="android:textSize">20sp</item>
+    	<item name="android:textColor">#FFFFFF</item>
+33    	<item name="android:background">#990066</item>
+    	<item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+
+    <style name ="groupNameStyle">
+    	<item name="android:textSize">40sp</item>
+    	<item name="android:textColor">#4C0B5F</item>
+    </style>
+</resources>
+

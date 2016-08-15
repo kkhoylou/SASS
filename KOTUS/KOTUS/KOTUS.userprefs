@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="KOTUS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="messageBoard.cs">
+    <Files>
+      <File FileName="App.cs" Line="16" Column="46" />
+      <File FileName="AppFragments/UserDashboardFragment.cs" Line="63" Column="52" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

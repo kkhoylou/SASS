@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_style">
+    <TextView
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Title"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.5dp"
+        android:layout_marginTop="5dp" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="45.9dp"
+        android:id="@+id/title"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.5dp" />
+    <TextView
+        android:text="Location"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Location"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.5dp" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="46.0dp"
+        android:id="@+id/locationText"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.5dp" />
+    <TextView
+        android:text="Start Date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/StartDate"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.5dp" />
+    <TextView
+        android:text="Text"
+        android:layout_width="247.2dp"
+        android:layout_height="29.8dp"
+        android:id="@+id/dateDisplayStart"
+        android:textSize="25dp"
+        android:layout_gravity="center" />
+    <Button
+        android:text="Choose Date"
+        android:layout_width="249.8dp"
+        android:layout_height="30.6dp"
+        android:id="@+id/pickDateStart"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:textSize="11dp"
+        style="@style/buttonStyle" />
+    <TextView
+        android:text="End Date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EndDate"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.5dp" />
+    <TextView
+        android:text="Text"
+        android:layout_width="247.2dp"
+        android:layout_height="29.8dp"
+        android:id="@+id/dateDisplayEnd"
+        android:textSize="25dp"
+        android:layout_gravity="center" />
+    <Button
+        android:text="Choose Date"
+        android:layout_width="249.8dp"
+        android:layout_height="30.4dp"
+        android:id="@+id/pickDateEnd"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:textSize="11dp"
+        style="@style/buttonStyle" />
+    <TextView
+        android:text="Start Time"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/StartTime"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.5dp" />
+    <TextView
+        android:text="Text"
+        android:layout_width="247.2dp"
+        android:layout_height="29.8dp"
+        android:id="@+id/timeDisplayStart"
+        android:layout_gravity="center"
+        android:textSize="25dp" />
+    <Button
+        android:text="Choose Time"
+        android:layout_width="251.2dp"
+        android:layout_height="30.4dp"
+        android:id="@+id/pickTimeStart"
+        android:layout_gravity="center"
+        android:textSize="11dp"
+        style="@style/buttonStyle" />
+    <TextView
+        android:text="End Time"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EndTime"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.5dp" />
+    <TextView
+        android:text="Text"
+        android:layout_width="247.2dp"
+        android:layout_height="29.8dp"
+        android:id="@+id/timeDisplayEnd"
+        android:layout_gravity="center"
+        android:textSize="25dp" />
+    <Button
+        android:text="CHOOSE TIME"
+        android:layout_width="251.2dp"
+        android:layout_height="30.4dp"
+        android:id="@+id/pickTimeEnd"
+        android:textSize="11dp"
+        android:layout_gravity="center"
+        style="@style/buttonStyle" />
+    <TextView
+        android:text="Description"
+        android:layout_width="88.1dp"
+        android:layout_height="19.2dp"
+        android:id="@+id/Description"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="12.2dp" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="34.8dp"
+        android:id="@+id/DescriptionText"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.5dp" />
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="364.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow1"
+        android:layout_marginLeft="4.7dp">
+        <Button
+            android:text="Save"
+            android:id="@+id/editEvent"
+            android:layout_width="80.3dp"
+            style="@style/buttonStyle" />
+        <Button
+            android:text="Cancel"
+            android:layout_width="58.4dp"
+            android:id="@+id/cancel"
+            android:layout_gravity="center"
+            style="@style/buttonStyle" />
+        <Button
+            android:text="Delete"
+            android:layout_width="125dp"
+            android:id="@+id/delete"
+            style="@style/buttonStyle" />
+    </TableRow>
+</LinearLayout>
